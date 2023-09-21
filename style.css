@@ -1,0 +1,36 @@
+#contenedorDePersonajes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.favorito{
+    background-color: red;
+}
+
+.tarjeta {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+h1 {
+    background-color: #318726;
+    transition: background-color 2s ease 0s;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px
+}
+h1:hover {
+    background-color: #d9dd0e;
+}
+
+h2 {
+    text-decoration: underline solid black;
+}
